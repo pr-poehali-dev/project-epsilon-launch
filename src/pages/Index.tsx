@@ -36,7 +36,7 @@ const Index = () => {
               <Cast className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
             </div>
             <div>
-              <h1 className="text-lg sm:text-xl font-bold text-white">StreamCord</h1>
+              <h1 className="text-lg sm:text-xl font-bold text-white">Эфир</h1>
               <p className="text-xs text-[#b9bbbe] hidden sm:block">Трансляция, голос и радио прямо в Discord</p>
             </div>
           </div>
@@ -99,7 +99,7 @@ const Index = () => {
             className={`${mobileSidebarOpen ? "block" : "hidden"} lg:block w-full lg:w-60 bg-[#2f3136] flex flex-col`}
           >
             <div className="p-4 border-b border-[#202225] flex items-center justify-between">
-              <h2 className="text-white font-semibold text-base">StreamCord</h2>
+              <h2 className="text-white font-semibold text-base">Эфир</h2>
               <Button
                 variant="ghost"
                 className="lg:hidden text-[#b9bbbe] hover:text-white hover:bg-[#40444b] p-1"
@@ -195,16 +195,16 @@ const Index = () => {
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-baseline gap-2 mb-1">
-                    <span className="text-white font-medium text-sm sm:text-base">StreamCord Бот</span>
+                    <span className="text-white font-medium text-sm sm:text-base">Эфир Бот</span>
                     <span className="bg-[#5865f2] text-white text-xs px-1 rounded">БОТ</span>
                     <span className="text-[#72767d] text-xs hidden sm:inline">Сегодня в 12:00</span>
                   </div>
                   <div className="text-[#dcddde] text-sm sm:text-base">
                     <p className="mb-3 sm:mb-4">
-                      <strong>Добро пожаловать в StreamCord!</strong> Транслируй экран, общайся голосом и слушай встроенное радио — всё прямо в Discord.
+                      <strong>Добро пожаловать в Эфир!</strong> Транслируй экран, общайся голосом и слушай встроенное радио — всё прямо в Discord.
                     </p>
                     <div className="bg-[#2f3136] border-l-4 border-[#5865f2] p-3 sm:p-4 rounded">
-                      <h3 className="text-white font-semibold mb-2 text-sm sm:text-base">Что умеет StreamCord:</h3>
+                      <h3 className="text-white font-semibold mb-2 text-sm sm:text-base">Что умеет Эфир:</h3>
                       <ul className="space-y-1 text-xs sm:text-sm text-[#b9bbbe]">
                         <li>📺 Трансляция экрана в высоком качестве прямо в Discord</li>
                         <li>🎙️ Голосовые каналы без задержки с шумоподавлением</li>
@@ -270,7 +270,7 @@ const Index = () => {
                         </button>
                       </div>
 
-                      {/* Активность StreamCord */}
+                      {/* Активность Эфир */}
                       <div>
                         <div className="flex items-center gap-2 text-[#8e9297] text-xs font-semibold uppercase tracking-wide mb-2 sm:mb-3">
                           <span>Транслирует экран</span>
@@ -284,7 +284,7 @@ const Index = () => {
 
                           {/* Детали активности */}
                           <div className="flex-1 min-w-0">
-                            <div className="text-white font-semibold text-xs sm:text-sm mb-1">StreamCord</div>
+                            <div className="text-white font-semibold text-xs sm:text-sm mb-1">Эфир</div>
                             <div className="text-[#dcddde] text-xs sm:text-sm mb-1">Трансляция экрана</div>
                             <div className="text-[#b9bbbe] text-xs sm:text-sm mb-2">1080p · 60fps</div>
                             <div className="flex items-center gap-2">
@@ -335,7 +335,7 @@ const Index = () => {
               <div className="bg-[#2f3136] border border-[#202225] rounded-lg p-4 sm:p-6 mt-6 sm:mt-8">
                 <h2 className="text-xl sm:text-2xl font-bold text-white mb-4 flex items-center gap-2">
                   <Download className="w-5 h-5 sm:w-6 sm:h-6 text-[#5865f2]" />
-                  Начни работу со StreamCord
+                  Начни работу со Эфир
                 </h2>
 
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-4 sm:mb-6">
@@ -365,7 +365,7 @@ const Index = () => {
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <Button className="bg-[#5865f2] hover:bg-[#4752c4] text-white px-6 sm:px-8 py-2 sm:py-3 rounded text-sm font-medium">
                     <Download className="w-4 h-4 mr-2" />
-                    Скачать StreamCord
+                    Скачать Эфир
                   </Button>
                   <Button
                     variant="outline"
@@ -379,7 +379,7 @@ const Index = () => {
 
               {/* Преимущества */}
               <div className="bg-[#2f3136] border border-[#202225] rounded-lg p-4 sm:p-6">
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-4">Почему StreamCord?</h3>
+                <h3 className="text-lg sm:text-xl font-bold text-white mb-4">Почему Эфир?</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
                   {[
                     {
